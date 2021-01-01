@@ -1,0 +1,60 @@
+    /* controlo de margem e colcoação de imagem no backgroud */
+    body {
+        margin: 0;
+        
+    }
+
+    /* para controlo da resolução em grandes ecrãs, poder controlar os pontos limites */
+    #mycanvas {          
+        position: absolute;
+        width: 100%;        
+        height: 100%;
+    /*    max-width: 1536px;
+        max-height: 768px; */
+    }
+
+    
+    /* Legendas para as funcionalidades de interação do projecto */
+    .controlos{  
+        width: 70px;
+        height: 45px;
+        position: absolute;
+        display: block;  
+        bottom: 100px;
+        text-align: center;
+        color: #000;
+        pointer-events: none;
+    }
+
+    #ctrlRato{
+        left: 100px;
+    }
+    #ctrlScroll{
+        left: 190px;
+    }
+    .icon{
+        width: 90px;
+        height: 90px;
+        display: inline-block;
+        background: url("img/icoctrls.png") 0% 100% / 200% 100% no-repeat;
+    }
+
+    #ciconRato{
+        background-position: 0% 0%;
+    }
+    #ctrlIcoScroll{
+        background-position: 110% 100%;
+    }
+    .legenda{
+        font-size: 8px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        white-space: nowrap;
+        font-weight: 700;
+        display: block;
+        position: absolute;
+        width: 100%;
+        pointer-events: none;
+    }
+
+        
